@@ -1,9 +1,11 @@
 using System;
 
-namespace TodoApi
+namespace TodoApi.Models
 {
     public class WeatherForecast
     {
+        public long Id { get; set; }
+        
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
